@@ -24,12 +24,10 @@ const About = () => {
 	];
 
 	const interests = [
-		"Web Development",
-		"UI/UX Design",
-		"Cloud Computing",
-		"DevOps",
-		"Open Source",
-		"Artificial Intelligence"
+		"Blockchain",
+		"AI",
+		"Software Engineering",
+		"Software Development"
 	];
 
 	return (
@@ -54,13 +52,7 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Hi! I'm a passionate full-stack developer with expertise in building modern web applications. My journey in tech started during my college years, where I discovered my love for creating innovative solutions through code.
-						</p>
-						<p className="text-gray-300 leading-relaxed">
-							Currently pursuing my B.Tech in Computer Science, I've maintained a strong academic record while actively engaging in real-world projects and internships. This blend of theoretical knowledge and practical experience has shaped my approach to problem-solving and software development.
-						</p>
-						<p className="text-gray-300 leading-relaxed">
-							I specialize in React, Node.js, and modern web technologies, with a keen interest in creating performant and user-friendly applications. My experience includes working with various startups and contributing to open-source projects.
+							I&apos;m Davit, a passionate software developer. I specialize in Full stack Development, crafting seamless user experiences and robust backend solutions. With 5+ years of experience as a full-stack developer, I specialize in creating modern, responsive, and user-friendly web applications. My work has spanned a variety of roles, from building fully customized websites from scratch to contributing to live products used by thousands. I excel in developing seamless user experiences using React, Next.js, and TypeScript, complemented by backend expertise in Node.js, Express.js, and databases like MongoDB and PostgreSQL. I also have hands-on experience with blockchain technologies, including integrating wallets, and building Web3-powered applications.
 						</p>
 					</div>
 
@@ -84,7 +76,7 @@ const About = () => {
 					<ScrollAnimation>
 						<div className="flex justify-start space-x-4">
 							<a
-								href="/files/cv_pdf/Your_CV.pdf"
+								href="/files/cv_pdf/Niladri_Chatterjee(CV).pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"

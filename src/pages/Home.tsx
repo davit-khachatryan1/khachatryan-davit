@@ -8,9 +8,8 @@ import { useState } from 'react';
 
 const Home = () => {
 	const [copied, setCopied] = useState(false);
-	const email = 'your.email@example.com';
-	const whatsappNumber = '+1234567890';
-
+	const email = 'davitkhachatryan25@gmail.com';
+	const telegramNumber = '+37433330042';
 	const copyToClipboard = async () => {
 		try {
 			await navigator.clipboard.writeText(email);
@@ -39,7 +38,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 				>
-					Your Name
+					Davit Khachatryan
 				</motion.h1>
 				<motion.h1
 					className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
@@ -56,7 +55,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8, delay: 0.2 }}
 				>
-					Software Developer specializing in Full Stack Development with expertise in Next.js, Node.js and modern Web Technologies.
+					Full Stack Web3 Developer specializing in blockchain solutions, Web3 integrations, and modern web technologies.
 				</motion.p>
 
 				<motion.div
@@ -67,7 +66,7 @@ const Home = () => {
 				>
 					<div className="flex justify-center space-x-3 sm:space-x-4">
 						<a
-							href="/files/cv_pdf/Your_CV.pdf"
+							href="/files/cv_pdf/Niladri_Chatterjee(CV).pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-black rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors flex items-center gap-2"
@@ -111,47 +110,47 @@ const Home = () => {
 					animate={{ opacity: 1 }}
 					transition={{ duration: 0.8, delay: 0.6 }}
 				>
-					<motion.a
-						href="https://linkedin.com/in/yourusername"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex flex-col items-center group w-full"
-						whileHover={{ y: -2 }}
+				<motion.a
+					href="https://www.linkedin.com/in/davitkhachatryan11/"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="flex flex-col items-center group w-full"
+					whileHover={{ y: -2 }}
+				>
+					<div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
+						<Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
+					</div>
+					<motion.div
+						className="flex flex-col items-center"
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ delay: 0.8 }}
 					>
-						<div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
-							<Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
-						</div>
-						<motion.div
-							className="flex flex-col items-center"
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.8 }}
-						>
-							<span className="text-base sm:text-lg font-semibold">1500+</span>
-							<span className="text-xs sm:text-sm text-gray-400">LinkedIn Followers</span>
-						</motion.div>
-					</motion.a>
+						<span className="text-base sm:text-lg font-semibold">LinkedIn</span>
+						<span className="text-xs sm:text-sm text-gray-400">Connect</span>
+					</motion.div>
+				</motion.a>
 
-					<motion.a
-						href={`https://wa.me/${whatsappNumber}`}
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex flex-col items-center group w-full"
-						whileHover={{ y: -2 }}
+				<motion.a
+					href={`https://t.me/${telegramNumber}`}
+					target="_blank"
+					rel="noopener noreferrer"
+					className="flex flex-col items-center group w-full"
+					whileHover={{ y: -2 }}
+				>
+					<div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
+						<MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
+					</div>
+					<motion.div
+						className="flex flex-col items-center"
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ delay: 0.8 }}
 					>
-						<div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
-							<MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
-						</div>
-						<motion.div
-							className="flex flex-col items-center"
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.8 }}
-						>
-							<span className="text-base sm:text-lg font-semibold">24x7</span>
-							<span className="text-xs sm:text-sm text-gray-400">WhatsApp Me</span>
-						</motion.div>
-					</motion.a>
+						<span className="text-base sm:text-lg font-semibold">Telegram</span>
+						<span className="text-xs sm:text-sm text-gray-400">Message</span>
+					</motion.div>
+				</motion.a>
 				</motion.div>
 			</div>
 		</div>

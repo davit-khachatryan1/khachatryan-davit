@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Linkedin, MessageCircle, Clock, Send, MessageSquare } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Send, MessageSquare } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaEnvelope, FaTelegramPlane } from 'react-icons/fa';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -29,19 +30,13 @@ const Contact = () => {
 		{
 			icon: <Mail className="w-5 h-5" />,
 			label: 'Email',
-			value: 'your.email@example.com',
-			link: 'mailto:your.email@example.com'
-		},
-		{
-			icon: <Phone className="w-5 h-5" />,
-			label: 'Phone',
-			value: '+1234567890',
-			link: 'tel:+1234567890'
+			value: 'davitkhachatryan25@gmail.com',
+			link: 'mailto:davitkhachatryan25@gmail.com'
 		},
 		{
 			icon: <MapPin className="w-5 h-5" />,
 			label: 'Location',
-			value: 'Kolkata, West Bengal, India'
+			value: 'Remote'
 		},
 		{
 			icon: <Clock className="w-5 h-5" />,
@@ -52,14 +47,24 @@ const Contact = () => {
 
 	const socialLinks = [
 		{
-			icon: <Linkedin className="w-5 h-5" />,
-			label: 'LinkedIn',
-			link: 'https://linkedin.com/in/yourusername'
+			icon: <FaGithub className="w-5 h-5" />,
+			label: 'GitHub',
+			link: 'https://github.com/davit-khachatryan1'
 		},
 		{
-			icon: <MessageCircle className="w-5 h-5" />,
-			label: 'WhatsApp',
-			link: 'https://wa.me/+1234567890'
+			icon: <FaLinkedin className="w-5 h-5" />,
+			label: 'LinkedIn',
+			link: 'https://www.linkedin.com/in/davitkhachatryan11/'
+		},
+		{
+			icon: <FaEnvelope className="w-5 h-5" />,
+			label: 'Email',
+			link: 'mailto:davitkhachatryan25@gmail.com'
+		},
+		{
+			icon: <FaTelegramPlane className="w-5 h-5" />,
+			label: 'Telegram',
+			link: 'https://t.me/DavitKhachatryan'
 		}
 	];
 

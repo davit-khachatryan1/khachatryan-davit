@@ -1,11 +1,16 @@
 'use client';
 
-
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Code2, Linkedin, Mail, Phone } from 'lucide-react';
+import { Code2, Mail } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaEnvelope, FaTelegramPlane } from 'react-icons/fa';
 
 const Footer = () => {
-	const currentYear = new Date().getFullYear();
+	const [currentYear, setCurrentYear] = useState(2024);
+
+	useEffect(() => {
+		setCurrentYear(new Date().getFullYear());
+	}, []);
 
 	const pageLinks = [
 		{ name: 'Home', path: '/' },
@@ -37,7 +42,7 @@ const Footer = () => {
 							<span className="text-xl font-bold text-white">Portfolio</span>
 						</Link>
 						<p className="text-sm text-gray-400">
-							Software Developer based in Kolkata, WB, India.
+							Full Stack Web3 Developer
 						</p>
 					</div>
 
@@ -46,18 +51,9 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Contact</h3>
 						<ul className="space-y-3">
 							<li>
-								<a href="mailto:your.email@example.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+								<a href="mailto:davitkhachatryan25@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
 									<Mail className="w-4 h-4" />
-									your.email@example.com
-								</a>
-							</li>
-							<li>
-								<a
-									href="tel:+1234567890"
-									className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
-								>
-									<Phone className="w-4 h-4" />
-									+1234567890
+									davitkhachatryan25@gmail.com
 								</a>
 							</li>
 						</ul>
@@ -111,18 +107,34 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Social</h3>
 						<div className="flex space-x-4">
 							<a
-								href="https://linkedin.com/in/yourusername"
+								href="https://github.com/davit-khachatryan1"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-gray-400 hover:text-white transition-colors"
 							>
-								<Linkedin className="w-5 h-5" />
+								<FaGithub className="w-5 h-5" />
 							</a>
 							<a
-								href="mailto:your.email@example.com"
+								href="https://www.linkedin.com/in/davitkhachatryan11/"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="text-gray-400 hover:text-white transition-colors"
 							>
-								<Mail className="w-5 h-5" />
+								<FaLinkedin className="w-5 h-5" />
+							</a>
+							<a
+								href="mailto:davitkhachatryan25@gmail.com"
+								className="text-gray-400 hover:text-white transition-colors"
+							>
+								<FaEnvelope className="w-5 h-5" />
+							</a>
+							<a
+								href="https://t.me/DavitKhachatryan"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-gray-400 hover:text-white transition-colors"
+							>
+								<FaTelegramPlane className="w-5 h-5" />
 							</a>
 						</div>
 					</div>

@@ -3,7 +3,7 @@
   # Personal Portfolio 🚀
 
   [![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https%3A%2F%2Fyourportfolio.vercel.app)](https://yourportfolio.vercel.app)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourusername)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/davitkhachatryan11/)
   [![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://yourportfolio.vercel.app)
   [![Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 
@@ -11,7 +11,7 @@
     <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind" alt="Tech Stack" />
   </p>
 
-  <h3>Full Stack Developer | MERN Specialist | Database Expert</h3>
+  <h3>Full Stack Web3 Developer | Blockchain Specialist | Web3 Expert</h3>
 
   [View Live Demo](https://yourportfolio.vercel.app)
 
@@ -19,7 +19,7 @@
 
 ## 🌟 Overview
 
-A modern, responsive portfolio website showcasing my journey as a Full Stack Developer. Built with Next.js and Tailwind CSS, this portfolio demonstrates my expertise in web development through interactive UI components and seamless user experience.
+A modern, responsive portfolio website showcasing my journey as a Full Stack Web3 Developer. Built with Next.js and Tailwind CSS, this portfolio demonstrates my expertise in blockchain solutions, Web3 integrations, and modern web development through interactive UI components and seamless user experience.
 
 ## ✨ Key Features
 
@@ -92,7 +92,7 @@ npm run build
 
 <div align="center">
 
-`Software Developer` · `Full Stack Developer` · `MERN Stack` · `Web Developer` · `React Developer` · `Next.js Expert` · `Database Developer` · `Frontend Specialist` · `Backend Developer` · `JavaScript Expert` · `TypeScript Developer` · `Node.js Developer` · `MongoDB Expert` · `SQL Developer`
+`Web3 Developer` · `Full Stack Developer` · `Blockchain Developer` · `Web Developer` · `React Developer` · `Next.js Expert` · `Web3.js` · `Ethers.js` · `Wagmi` · `Ethereum` · `Solana` · `Frontend Specialist` · `Backend Developer` · `JavaScript Expert` · `TypeScript Developer` · `Node.js Developer`
 
 </div>
 
@@ -100,9 +100,10 @@ npm run build
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-your.email%40example.com-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourusername-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourusername)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Connect-green?style=for-the-badge&logo=whatsapp)](https://wa.me/+1234567890)
+[![Email](https://img.shields.io/badge/Email-davitkhachatryan25%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:davitkhachatryan25@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-davitkhachatryan11-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/davitkhachatryan11/)
+[![GitHub](https://img.shields.io/badge/GitHub-davit--khachatryan1-black?style=for-the-badge&logo=github)](https://github.com/davit-khachatryan1)
+[![Telegram](https://img.shields.io/badge/Telegram-DavitKhachatryan-blue?style=for-the-badge&logo=telegram)](https://t.me/DavitKhachatryan)
 
 </div>
 

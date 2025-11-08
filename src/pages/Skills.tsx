@@ -2,95 +2,79 @@
 
 import { motion } from 'framer-motion';
 import {
-	Code2, Layout, Server, Database, MessageSquare, Lightbulb, Users, Brain,
-	Cloud, Terminal, Wrench,
+	Code2, Layout, Server, Database, Wrench, Globe,
 } from 'lucide-react';
 import { ScrollAnimation } from '@/components/ScrollAnimation';
-import {
-	CppLogo, PythonLogo, JavaScriptLogo, HTML5Logo,
-	CSSLogo, ReactLogo, TypeScriptLogo, NodeLogo, MySQLLogo,
-	MongoDBLogo, VSCodeLogo, GitLogo, TailwindLogo, ShadCNLogo, NextjsLogo,
-	VirtualBoxLogo, VercelLogo
-} from '@/components/TechLogos';
+import { FaHtml5, FaCss3, FaSass, FaReact, FaNodeJs, FaVuejs, FaAngular, FaGithub } from 'react-icons/fa';
+import { TbBrandJavascript, TbBrandTypescript, TbBrandBootstrap, TbBrandRedux, TbBrandReactNative } from 'react-icons/tb';
+import { SiNextdotjs, SiNuxtdotjs, SiExpress, SiPostman, SiGnubash, SiWeb3Dotjs, SiEthers, SiWagmi, SiEthereum, SiSolana } from 'react-icons/si';
+import { BiLogoPostgresql } from 'react-icons/bi';
+import { DiMongodb } from 'react-icons/di';
+import { BsGit } from 'react-icons/bs';
+import { GiArtificialIntelligence } from 'react-icons/gi';
 
 const skills = [
 	{
-		category: 'Programming Languages',
-		icon: <Code2 className="w-6 h-6" />,
+		category: 'Front-End Fundamentals',
+		icon: <Layout className="w-6 h-6" />,
 		items: [
-			{ name: 'C++', icon: <CppLogo /> },
-			{ name: 'Python', icon: <PythonLogo /> },
-			{ name: 'JavaScript', icon: <JavaScriptLogo /> },
-			{ name: 'TypeScript', icon: <TypeScriptLogo /> }
+			{ name: 'HTML5', icon: <FaHtml5 className="w-5 h-5" /> },
+			{ name: 'CSS3', icon: <FaCss3 className="w-5 h-5" /> },
+			{ name: 'Javascript', icon: <TbBrandJavascript className="w-5 h-5" /> },
+			{ name: 'Typescript', icon: <TbBrandTypescript className="w-5 h-5" /> },
+			{ name: 'SASS', icon: <FaSass className="w-5 h-5" /> },
+			{ name: 'Bootstrap', icon: <TbBrandBootstrap className="w-5 h-5" /> }
 		]
 	},
 	{
-		category: 'Front-End Development',
-		icon: <Layout className="w-6 h-6" />,
+		category: 'Front-End Frameworks',
+		icon: <Code2 className="w-6 h-6" />,
 		items: [
-			{ name: 'HTML5', icon: <HTML5Logo /> },
-			{ name: 'CSS3', icon: <CSSLogo /> },
-			{ name: 'Tailwind', icon: <TailwindLogo /> },
-			{ name: 'ShadCN', icon: <ShadCNLogo /> }
+			{ name: 'ReactJS', icon: <FaReact className="w-5 h-5" /> },
+			{ name: 'NextJS', icon: <SiNextdotjs className="w-5 h-5" /> },
+			{ name: 'Redux', icon: <TbBrandRedux className="w-5 h-5" /> },
+			{ name: 'VueJS', icon: <FaVuejs className="w-5 h-5" /> },
+			{ name: 'Nuxt', icon: <SiNuxtdotjs className="w-5 h-5" /> },
+			{ name: 'Angular', icon: <FaAngular className="w-5 h-5" /> },
+			{ name: 'React Native', icon: <TbBrandReactNative className="w-5 h-5" /> }
 		]
 	},
 	{
 		category: 'Back-End Development',
 		icon: <Server className="w-6 h-6" />,
 		items: [
-			{ name: 'React.js', icon: <ReactLogo /> },
-			{ name: 'Node.js', icon: <NodeLogo /> },
-			{ name: 'Next.js', icon: <NextjsLogo /> },
-			{ name: 'TypeScript', icon: <TypeScriptLogo /> }
+			{ name: 'NodeJs', icon: <FaNodeJs className="w-5 h-5" /> },
+			{ name: 'Express', icon: <SiExpress className="w-5 h-5" /> }
 		]
 	},
 	{
-		category: 'Databases & Cloud Storage',
+		category: 'Databases',
 		icon: <Database className="w-6 h-6" />,
 		items: [
-			{ name: 'MySQL', icon: <MySQLLogo /> },
-			{ name: 'MongoDB', icon: <MongoDBLogo /> },
-			{ name: 'Cloudinary', icon: <Cloud className="w-4 h-4" /> },
-			{ name: 'NoSQL', icon: <Database className="w-4 h-4" /> }
+			{ name: 'Postgres', icon: <BiLogoPostgresql className="w-5 h-5" /> },
+			{ name: 'MongoDB', icon: <DiMongodb className="w-5 h-5" /> }
 		]
 	},
 	{
-		category: 'Version Control & DevOps',
-		icon: <GitLogo />,
-		items: [
-			{ name: 'Git', icon: <GitLogo /> },
-			{ name: 'Vercel', icon: <VercelLogo /> },
-			{ name: 'CI/CD', icon: <Code2 /> }
-		]
-	},
-	{
-		category: 'Tools & Platforms',
+		category: 'Tools & APIs',
 		icon: <Wrench className="w-6 h-6" />,
 		items: [
-			{ name: 'VS Code', icon: <VSCodeLogo /> },
-			{ name: 'Workbench', icon: <MySQLLogo /> },
-			{ name: 'Compass', icon: <MongoDBLogo /> },
-			{ name: 'VirtualBox', icon: <VirtualBoxLogo /> }
+			{ name: 'Postman', icon: <SiPostman className="w-5 h-5" /> },
+			{ name: 'Git', icon: <BsGit className="w-5 h-5" /> },
+			{ name: 'Github', icon: <FaGithub className="w-5 h-5" /> },
+			{ name: 'ChatGPT', icon: <GiArtificialIntelligence className="w-5 h-5" /> },
+			{ name: 'Bash', icon: <SiGnubash className="w-5 h-5" /> }
 		]
 	},
 	{
-		category: 'Operating Systems',
-		icon: <Terminal className="w-6 h-6" />,
+		category: 'Web3 & Blockchain',
+		icon: <Globe className="w-6 h-6" />,
 		items: [
-			{ name: 'Windows', icon: <Terminal className="w-4 h-4" /> },
-			{ name: 'Ubuntu', icon: <Terminal className="w-4 h-4" /> },
-			{ name: 'Linux', icon: <Terminal className="w-4 h-4" /> },
-			{ name: 'Parrot OS', icon: <Terminal className="w-4 h-4" /> }
-		]
-	},
-	{
-		category: 'Soft Skills',
-		icon: <Brain className="w-6 h-6" />,
-		items: [
-			{ name: 'Teamwork', icon: <Users className="w-4 h-4" /> },
-			{ name: 'Troubleshooting', icon: <Wrench className="w-4 h-4" /> },
-			{ name: 'Progressive', icon: <Lightbulb className="w-4 h-4" /> },
-			{ name: 'Communication', icon: <MessageSquare className="w-4 h-4" /> }
+			{ name: 'Web3.js', icon: <SiWeb3Dotjs className="w-5 h-5" /> },
+			{ name: 'Ethers.js', icon: <SiEthers className="w-5 h-5" /> },
+			{ name: 'Wagmi', icon: <SiWagmi className="w-5 h-5" /> },
+			{ name: 'Ethereum', icon: <SiEthereum className="w-5 h-5" /> },
+			{ name: 'Solana', icon: <SiSolana className="w-5 h-5" /> }
 		]
 	}
 ];

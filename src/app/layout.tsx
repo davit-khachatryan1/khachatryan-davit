@@ -14,11 +14,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-	title: 'Portfolio - Software Developer',
-	description: 'Full Stack Developer specializing in MERN stack, React.js, Node.js, and modern web technologies. Expert in database development and web applications.',
-	keywords: 'Software Developer, Full Stack Developer, MERN Stack, Web Developer, React Developer, Next.js Expert, Database Developer, Frontend Specialist, Backend Developer, JavaScript Expert, TypeScript Developer, Node.js Developer, MongoDB Expert, SQL Developer',
-	authors: [{ name: 'Portfolio' }],
-	creator: 'Portfolio',
+	title: 'Davit Khachatryan - Full Stack Web3 Developer',
+	description: 'Full Stack Web3 Developer specializing in blockchain solutions, Web3 integrations, React.js, Next.js, Node.js, and modern web technologies.',
+	keywords: 'Web3 Developer, Full Stack Developer, Blockchain Developer, React Developer, Next.js Expert, Web3.js, Ethers.js, Wagmi, Ethereum, Solana, Frontend Specialist, Backend Developer, JavaScript Expert, TypeScript Developer, Node.js Developer',
+	authors: [{ name: 'Davit Khachatryan' }],
+	creator: 'Davit Khachatryan',
 	manifest: '/manifest.json',
 	themeColor: '#000000',
 	viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
@@ -26,15 +26,15 @@ export const metadata: Metadata = {
 		type: 'website',
 		locale: 'en_US',
 		url: 'https://yourportfolio.vercel.app/',
-		title: 'Portfolio - Full Stack Developer',
-		description: 'Full-stack developer specializing in MERN stack, React.js, Node.js, and modern web technologies.',
-		siteName: 'Portfolio',
+		title: 'Davit Khachatryan - Full Stack Web3 Developer',
+		description: 'Full Stack Web3 Developer specializing in blockchain solutions, Web3 integrations, and modern web technologies.',
+		siteName: 'Davit Khachatryan Portfolio',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Portfolio - Full Stack Developer',
-		description: 'Full-stack developer specializing in MERN stack, React.js, Node.js, and modern web technologies.',
-		creator: '@yourusername',
+		title: 'Davit Khachatryan - Full Stack Web3 Developer',
+		description: 'Full Stack Web3 Developer specializing in blockchain solutions, Web3 integrations, and modern web technologies.',
+		creator: '@davitkhachatryan',
 	},
 	robots: {
 		index: true,
